@@ -1799,6 +1799,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Az/Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7912085073890224579, guid: 0dcd2e94d38dca6439be1dc815664f0f, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912085073890224579, guid: 0dcd2e94d38dca6439be1dc815664f0f, type: 3}
+      propertyPath: turnSpeed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
