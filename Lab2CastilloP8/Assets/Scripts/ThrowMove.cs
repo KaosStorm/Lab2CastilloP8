@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class PlayerController : MonoBehaviour
+public class ThrowMove : MonoBehaviour
 {
     public float speed = 10.0f;
     private float zbound;
@@ -23,8 +22,8 @@ public class PlayerController : MonoBehaviour
     }
     void MovePlayer()
     {
-        float verticalMovement = Input.GetAxis("Vertical") * speed * Time.deltaTime; 
-        float horizontalMovement = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        float verticalMovement = Input.GetAxis("Vertical");
+        float horizontalMovement = Input.GetAxis("Horizontal");
 
         transform.Translate(Vector3.right * speed * verticalMovement);
         transform.Translate(Vector3.forward * speed * horizontalMovement);
@@ -41,9 +40,3 @@ public class PlayerController : MonoBehaviour
         }
     }
 }
-
-
-
-
-
-    
