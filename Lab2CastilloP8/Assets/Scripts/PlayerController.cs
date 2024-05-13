@@ -26,8 +26,8 @@ public class PlayerController : MonoBehaviour
         float verticalMovement = Input.GetAxis("Vertical") * speed * Time.deltaTime; 
         float horizontalMovement = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
 
-        transform.Translate(Vector3.right * speed * verticalMovement);
-        transform.Translate(Vector3.forward * speed * horizontalMovement);
+        transform.Translate(Vector3.right * verticalMovement);
+        transform.Translate(Vector3.forward * horizontalMovement);
     }
     void ConstrainPlayerPosition()
     {

@@ -118,9 +118,10 @@ GameObject:
   - component: {fileID: 983212846860891093}
   - component: {fileID: 8742787308146364250}
   - component: {fileID: 7912085073890224579}
+  - component: {fileID: 3790279014153871850}
   m_Layer: 0
   m_Name: Az_Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -181,6 +182,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 630c2499e2cd0fa48b900f2a58d52069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+--- !u!65 &3790279014153871850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843685190234132732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.6310511, y: 3.4791589, z: 1.7811155}
+  m_Center: {x: 0, y: 1.6428747, z: -0.02891016}
 --- !u!1 &6428747635198459007
 GameObject:
   m_ObjectHideFlags: 0
